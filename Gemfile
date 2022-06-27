@@ -11,8 +11,8 @@ gem 'httparty'
 gem 'federal_register', '~> 0.7.6'
 gem 'saxerator'
 gem 'pg_search'
-gem 'kaminari', '>= 1.2.1'
-gem 'scenic', '>= 1.5.5'
+gem 'kaminari', '>= 1.2.2'
+gem 'scenic', '>= 1.6.0'
 
 # Use Puma as the app server
 gem 'puma', '~> 5.6'
@@ -21,7 +21,7 @@ gem 'sass-rails', '>= 6.0.0'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
 gem 'webpacker', '~> 5.4', '>= 5.4.3'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 2.11'
+gem 'jbuilder', '~> 2.11', '>= 2.11.5'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
