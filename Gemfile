@@ -34,7 +34,7 @@ group :development, :test do
   gem 'pry-rescue'
   gem 'pry-stack_explorer'
   gem 'pry-byebug'
-  gem 'factory_bot_rails', '>= 6.2.0'
+  gem 'factory_bot_rails', '>= 6.3.0'
 end
 
 group :development do
