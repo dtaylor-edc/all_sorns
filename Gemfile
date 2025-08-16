@@ -4,15 +4,15 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '~> 2.7'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 6.1.4', '>= 6.1.4.6'
-gem 'good_job', '>= 1.13.2'
+gem 'rails', '~> 7.1.5', '>= 7.1.5.2'
+gem 'good_job', '>= 1.99.0'
 gem 'pg'
 gem 'httparty'
 gem 'federal_register', '~> 0.7.6'
 gem 'saxerator'
-gem 'pg_search'
+gem 'pg_search', '>= 2.3.7'
 gem 'kaminari', '>= 1.2.1'
-gem 'scenic', '>= 1.5.5'
+gem 'scenic', '>= 1.7.0'
 
 # Use Puma as the app server
 gem 'puma', '~> 5.6'
